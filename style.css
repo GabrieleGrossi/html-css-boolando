@@ -3,22 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: sans-serif;
+}
 header{
     background-color: orange;
     color: white;
+    position: fixed;
+    width: 100%;
 }
 .navbar{
     height: 80%;
     text-align: center;
     padding: 1rem;
 }
-
+main{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 8rem;
+}
 .flex{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 ul{
     list-style-type: none;
+}
+ul li{
+    margin-right: 0.5rem;
+}
+section img{
+    height: 30px;
+}
+div.column{
+    width: calc((100% / 3) - 50px);
+    text-align: center;
+}
+div.column img{
+    width: 80%;
 }
