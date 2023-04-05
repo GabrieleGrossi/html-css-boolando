@@ -70,6 +70,9 @@ span.heart{
     right: 45px;
     font-size: 2rem;
 }
+.heart:hover{
+    color: red;
+}
 span.sostenibile{
     position: absolute;
     bottom: 80px;
