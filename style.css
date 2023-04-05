@@ -46,7 +46,7 @@ div.column img{
 }
 span.discount{
     position: absolute;
-    bottom: 45px;
+    bottom: 80px;
     left: 40px;
     background-color: red;
     color: white;
@@ -54,8 +54,16 @@ span.discount{
 }
 span.sostenibile{
     position: absolute;
-    bottom: 45px;
+    bottom: 80px;
     left: 80px;
     background-color: lightgreen;
     color: white;
+}
+h3.text-column{
+    font-size: small;
+    text-align: left;
+    margin-left: 2.4rem;
+}
+.color-red{
+    color: red;
 }
