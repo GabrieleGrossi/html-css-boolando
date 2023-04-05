@@ -52,16 +52,23 @@ div.column img{
     width: 80%;
     margin-top: 3rem;
 }
-div.column:hover img{
-    background-image: url(img/1b.webp);
-    background-size: cover;
-}
+
 span.discount{
     position: absolute;
     bottom: 80px;
     left: 50px;
     background-color: red;
     color: white;
+}
+span.heart{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    width: 40px;
+    position: absolute;
+    top: 60px;
+    right: 45px;
+    font-size: 2rem;
 }
 span.sostenibile{
     position: absolute;
@@ -70,10 +77,17 @@ span.sostenibile{
     background-color: lightgreen;
     color: white;
 }
+.sostenibile1{
+    position:absolute;
+    bottom: 80px;
+    left: 50px;
+    background-color: lightgreen;
+    color: white;
+}
 h3.text-column{
     font-size: small;
     text-align: left;
-    margin-left: 2.4rem;
+    margin-left: 3rem;
 }
 .color-red{
     color: red;
