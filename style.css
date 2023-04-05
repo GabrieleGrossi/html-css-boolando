@@ -37,9 +37,25 @@ section img{
     height: 30px;
 }
 div.column{
+    position: relative;
     width: calc((100% / 3) - 50px);
     text-align: center;
 }
 div.column img{
     width: 80%;
+}
+span.discount{
+    position: absolute;
+    bottom: 45px;
+    left: 40px;
+    background-color: red;
+    color: white;
+
+}
+span.sostenibile{
+    position: absolute;
+    bottom: 45px;
+    left: 80px;
+    background-color: lightgreen;
+    color: white;
 }
