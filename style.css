@@ -11,6 +11,12 @@ header{
     color: white;
     position: fixed;
     width: 100%;
+    z-index: 1;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
 }
 .navbar{
     height: 80%;
@@ -43,6 +49,7 @@ div.column{
 }
 div.column img{
     width: 80%;
+    margin-top: 3rem;
 }
 span.discount{
     position: absolute;
